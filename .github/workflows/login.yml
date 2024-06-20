@@ -7,7 +7,7 @@ on:
     # 23:40 karena zona waktu yang dipakai github action
     # adalah zona waktu UTC, atur sesuai jam yang diinginkan
     # dan sesuai dengan zona waktumu
-    - cron: "22 15 * * 0-4"
+    - cron: "20 17 * * 0-4"
   workflow_dispatch:
 
 jobs:
