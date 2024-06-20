@@ -7,7 +7,7 @@ on:
     # 23:40 karena zona waktu yang dipakai github action
     # adalah zona waktu UTC, atur sesuai jam yang diinginkan
     # dan sesuai dengan zona waktumu
-    - cron: "40 23 * * 0-4"
+    - cron: "22 15 * * 0-4"
   workflow_dispatch:
 
 jobs:
@@ -41,9 +41,9 @@ jobs:
           SUCCESS_INDICATOR_ELEMENTS: ${{ secrets.SUCCESS_INDICATOR_ELEMENTS }}
 
           # Required Field
-          WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
-          USERNAME: ${{ secrets.USERNAME }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          WEBSITE_URL: ${{ https://iserveu.ag-it.com/#/login }}
+          USERNAME: ${{ nikonick47 }}
+          PASSWORD: ${{ nikonick48 }}
 
           # Optional Field, uncomment if needed
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
